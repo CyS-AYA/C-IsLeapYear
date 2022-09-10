@@ -5,7 +5,7 @@ Assignment 2: Leap Year*/
 #include <stdio.h>
 
 
-int main(int year){
+int main(int year=0){
      if (year % 400 == 0) {
         printf("%d was a leap year\n", year);
         } 
