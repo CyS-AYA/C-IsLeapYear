@@ -20,11 +20,11 @@ void(isleapyear(int year)){
         printf("%d was not a leap year\n", year);
         }
 } 
-/*int main(){
+int main(){
     int year;
     scanf("%d", &year); 
     isleapyear(year);
 return 0;
-}*/
+}
 
 
