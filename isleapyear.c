@@ -7,6 +7,7 @@ Assignment 2: Leap Year*/
 
 int main(){
     int year;
+    year =1900;
     if (year % 400 == 0) {
         printf("%d was a leap year\n", year);
         } 
