@@ -4,10 +4,9 @@ Assignment 2: Leap Year*/
 
 #include <stdio.h>
 
-void(isleapyear(int year)){
-    
-      
-    if (year % 400 == 0) {
+
+int main(int year){
+     if (year % 400 == 0) {
         printf("%d was a leap year\n", year);
         } 
     else if (year % 100 == 0) {
@@ -19,9 +18,7 @@ void(isleapyear(int year)){
     else {
         printf("%d was not a leap year\n", year);
         }
-} 
-char main(){
-return "okokok";
+return 0;
 }
 
 
