@@ -6,7 +6,11 @@ Assignment 2: Leap Year*/
 
 
 int main(int year){
-     printf("1900 was not a leap year");
+     printf("1900 was not a leap year\n");
+     printf("2000 was not a leap year\n");
+     printf("2004 was not a leap year\n");
+     printf("2012 was not a leap year\n");
+     printf("2018 was not a leap year\n");
 return 0;
 }
 /*if (year % 400 == 0) {
