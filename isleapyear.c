@@ -6,7 +6,7 @@ Assignment 2: Leap Year*/
 
 
 int main(int year){
-     printf("%d",year)
+     printf("%d",year);
 return 0;
 }
 
